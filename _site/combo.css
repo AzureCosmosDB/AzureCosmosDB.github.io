@@ -572,10 +572,10 @@ html { box-sizing: border-box; }
   
   
   
-  nav .p-home { border-color: #f8f8f8; }
-  #home { background-color: #f8f8f8 !important; color: #111111; }
-  #home a { color: #111111; }
-  #home .sectiondivider { color: #f8f8f8; }
+  nav .p-home { border-color: #111111; }
+  #home { background-color: #111111 !important; color: #f8f8f8; }
+  #home a { color: #f8f8f8; }
+  #home .sectiondivider { color: #111111; }
 
 
 

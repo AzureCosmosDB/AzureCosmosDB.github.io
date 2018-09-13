@@ -472,15 +472,15 @@ html { box-sizing: border-box; }
 .text-black a { color: #111111; }
 .bg-black     { background-color: #111111 !important; }
 
-.border-white { border-color: #f8f8f8 !important; }
-.text-white   { color: #f8f8f8; }
-.text-white a { color: #f8f8f8; }
-.bg-white     { background-color: #f8f8f8 !important; }
+.border-white { border-color: #ffffff !important; }
+.text-white   { color: #ffffff; }
+.text-white a { color: #ffffff; }
+.bg-white     { background-color: #ffffff !important; }
 
-.border-blue { border-color: #49a7e9 !important; }
-.text-blue   { color: #49a7e9; }
-.text-blue a { color: #49a7e9; }
-.bg-blue     { background-color: #49a7e9 !important; }
+.border-blue { border-color: #0f0f0f !important; }
+.text-blue   { color: #0f0f0f; }
+.text-blue a { color: #0f0f0f; }
+.bg-blue     { background-color: #0f0f0f !important; }
 
 .border-green { border-color: #9bcf2f !important; }
 .text-green   { color: #9bcf2f; }
@@ -508,74 +508,74 @@ html { box-sizing: border-box; }
   
   
   
-  nav .p-news { border-color: #f8f8f8; }
-  #news { background-color: #f8f8f8 !important; color: #111111; }
+  nav .p-news { border-color: #ffffff; }
+  #news { background-color: #ffffff !important; color: #111111; }
   #news a { color: #111111; }
-  #news .sectiondivider { color: #f8f8f8; }
+  #news .sectiondivider { color: #ffffff; }
 
   
   
   
-  nav .p-videos { border-color: 6666ff; }
-  #videos { background-color: 6666ff !important; color: #111111; }
+  nav .p-videos { border-color: #f0f0f0; }
+  #videos { background-color: #f0f0f0 !important; color: #111111; }
   #videos a { color: #111111; }
-  #videos .sectiondivider { color: 6666ff; }
+  #videos .sectiondivider { color: #f0f0f0; }
 
   
   
   
-  nav .p-demos { border-color: #f8f8f8; }
-  #demos { background-color: #f8f8f8 !important; color: #111111; }
+  nav .p-demos { border-color: #ffffff; }
+  #demos { background-color: #ffffff !important; color: #111111; }
   #demos a { color: #111111; }
-  #demos .sectiondivider { color: #f8f8f8; }
+  #demos .sectiondivider { color: #ffffff; }
 
   
   
   
-  nav .p-tools { border-color: 6666ff; }
-  #tools { background-color: 6666ff !important; color: #111111; }
+  nav .p-tools { border-color: #f0f0f0; }
+  #tools { background-color: #f0f0f0 !important; color: #111111; }
   #tools a { color: #111111; }
-  #tools .sectiondivider { color: 6666ff; }
+  #tools .sectiondivider { color: #f0f0f0; }
 
   
   
   
-  nav .p-github { border-color: #f8f8f8; }
-  #github { background-color: #f8f8f8 !important; color: #111111; }
+  nav .p-github { border-color: #ffffff; }
+  #github { background-color: #ffffff !important; color: #111111; }
   #github a { color: #111111; }
-  #github .sectiondivider { color: #f8f8f8; }
+  #github .sectiondivider { color: #ffffff; }
 
   
   
   
-  nav .p-links { border-color: 6666ff; }
-  #links { background-color: 6666ff !important; color: #111111; }
+  nav .p-links { border-color: #f0f0f0; }
+  #links { background-color: #f0f0f0 !important; color: #111111; }
   #links a { color: #111111; }
-  #links .sectiondivider { color: 6666ff; }
+  #links .sectiondivider { color: #f0f0f0; }
 
   
   
   
-  nav .p-slides { border-color: #f8f8f8; }
-  #slides { background-color: #f8f8f8 !important; color: #111111; }
+  nav .p-slides { border-color: #ffffff; }
+  #slides { background-color: #ffffff !important; color: #111111; }
   #slides a { color: #111111; }
-  #slides .sectiondivider { color: #f8f8f8; }
+  #slides .sectiondivider { color: #ffffff; }
 
   
   
   
-  nav .p-questions { border-color: 6666ff; }
-  #questions { background-color: 6666ff !important; color: #111111; }
+  nav .p-questions { border-color: #f0f0f0; }
+  #questions { background-color: #f0f0f0 !important; color: #111111; }
   #questions a { color: #111111; }
-  #questions .sectiondivider { color: 6666ff; }
+  #questions .sectiondivider { color: #f0f0f0; }
 
   
   
   
-  nav .p-home { border-color: #111111; }
-  #home { background-color: #111111 !important; color: #f8f8f8; }
-  #home a { color: #f8f8f8; }
-  #home .sectiondivider { color: #111111; }
+  nav .p-home { border-color: #ffffff; }
+  #home { background-color: #ffffff !important; color: #ffffff; }
+  #home a { color: #ffffff; }
+  #home .sectiondivider { color: #ffffff; }
 
 
 
@@ -724,14 +724,26 @@ nav ul li:hover, nav ul li.active {
   width:100%;
   min-height:300px;
   padding:75px 0;
-  background:url(img/bgnoise.png);
-  /* generated noise from noisetexturegenerator.com */
 }
 
 .section:first-of-type {
     padding-top: 50px;
 }
 
+.FirstSection {
+  position:relative;
+  display:block;
+  width:100%;
+  color: white
+  min-height:300px;
+  padding:75px 0;
+  background: #000531 url("img/CosmicBackground.png");
+  background-size: cover;
+}
+
+.FirstSection:first-of-type {
+    padding-top: 50px;
+}
 
 #footer {
   padding: 8px 0;
@@ -809,53 +821,6 @@ nav ul li:hover, nav ul li.active {
 }
 .longlist { font-size: 14px !important; }
 .longlist li { margin-bottom: 3px; }
-
-
-
-/* ----- fork on github banner ----- */
-#forkongithub a {
-  color:#fff;
-  text-decoration:none;
-  font-family:arial,sans-serif;
-  text-align:center;
-  font-weight:700;
-  font-size:1rem;
-  line-height:2rem;
-  position:relative;
-  transition:.5s;
-  padding:5px 40px;
-}
-#forkongithub a::before, #forkongithub a::after {
-  content:""; width:100%; display:block; position:absolute;
-  top:1px; left:0; height:1px; background:#fff;
-}
-#forkongithub a::after { bottom:1px; top:auto; }
-@media screen and (min-width:800px) {
-  #forkongithub {
-    position:fixed;
-    display:block;
-    top:0;
-    right:0;
-    width:200px;
-    overflow:hidden;
-    height:200px;
-    z-index:9999;
-  }
-  #forkongithub a {
-    width:200px;
-    position:absolute;
-    top:60px;
-    right:-60px;
-    transform:rotate(45deg);
-    -webkit-transform:rotate(45deg);
-    -ms-transform:rotate(45deg);
-    -moz-transform:rotate(45deg);
-    -o-transform:rotate(45deg);
-    box-shadow:4px 4px 10px rgba(0,0,0,0.8);
-    box-sizing: content-box;
-  }
-}
-
 
 
 /* mid size (tablets, landscapes) */

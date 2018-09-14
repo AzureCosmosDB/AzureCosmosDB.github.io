@@ -487,6 +487,11 @@ html { box-sizing: border-box; }
 .text-green a { color: #9bcf2f; }
 .bg-green     { background-color: #9bcf2f !important; }
 
+.border-red { border-color: #ff0000 !important; }
+.text-red   { color: #ff0000; }
+.text-red a { color: #ff0000; }
+.bg-red     { background-color: #ff0000 !important; }
+
 .border-purple { border-color: #c869bf !important; }
 .text-purple   { color: #c869bf; }
 .text-purple a { color: #c869bf; }

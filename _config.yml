@@ -25,6 +25,7 @@ colors:
   white:     '#ffffff'
   blue:      '#0f0f0f'
   green:     '#9bcf2f'
+  red:       '#ff0000'
   purple:    '#c869bf'
   orange:    '#fab125'
   turquoise: '#0fbfcf'

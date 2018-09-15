@@ -1,9 +1,5 @@
 ---
-
-port: 4000
-host: 0.0.0.0
-safe: false
-
+url: http://www.gotcosmos.com
 
 ### site serving configuration ###
 exclude: [CNAME, README.md, .gitignore]

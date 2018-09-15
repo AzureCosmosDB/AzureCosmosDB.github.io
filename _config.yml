@@ -2,7 +2,7 @@
 url: http://www.gotcosmos.com
 
 ### site serving configuration ###
-exclude: [CNAME, README.md, .gitignore]
+exclude: [README.md, .gitignore]
 permalink: /:title ## disables post output
 timezone: null
 lsi: false

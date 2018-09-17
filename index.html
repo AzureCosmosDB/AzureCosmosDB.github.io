@@ -17,12 +17,7 @@
 <body>
   <div id="main">
 
-    <nav><ul>
-      {% for node in site.posts reversed %}
-        {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
-        <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
-      {% endfor %}
-    </ul></nav>
+   
 
     {% for page in site.posts reversed %}
       {% if page.title == "home" %}

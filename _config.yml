@@ -7,7 +7,7 @@ permalink: /:title ## disables post output
 timezone: null
 lsi: false
 markdown: kramdown
-baseurl: azurecosmosdb
+baseurl: AzureCosmosDB
 
 ### content configuration ###
 title:       "Azure Cosmos DB"

@@ -1,5 +1,5 @@
 ---
-url: http://www.gotcosmos.com
+
 
 ### site serving configuration ###
 exclude: [README.md, .gitignore]
@@ -7,7 +7,7 @@ permalink: /:title ## disables post output
 timezone: null
 lsi: false
 markdown: kramdown
-baseurl: /AzureCosmosDB
+
 
 ### content configuration ###
 title:       "Azure Cosmos DB"
